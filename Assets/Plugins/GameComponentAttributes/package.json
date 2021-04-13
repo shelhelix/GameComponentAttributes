@@ -1,0 +1,7 @@
+{
+    "name": "com.gamecomponentattributes",
+    "displayName": "Game Component Attributes",
+    "version": "1.0.0",
+    "unity": "2019.4",
+    "description": "Custom attributes for checking monobehaviour serializable fields."
+}
