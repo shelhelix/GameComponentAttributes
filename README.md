@@ -1,4 +1,4 @@
-# Unity Package Example
+# Unity Package GameComponentAttributes
 
 ## Installation
 
