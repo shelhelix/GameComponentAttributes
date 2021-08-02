@@ -12,7 +12,7 @@ GameComponentAttributes is a unity plugin for checking field values in your comp
 
 git link for the unity package manager UI
 ```
-https://github.com/shelhelix/GameComponentAttributes.git?path=/Assets/Plugins/GameComponentAttributes 
+https://github.com/ultrashel/GameComponentAttributes.git?path=/Assets/Plugins/GameComponentAttributes 
 ```
 
 How to install packages via the package manager:
@@ -26,7 +26,7 @@ To install this project as a [Git dependency](https://docs.unity3d.com/Manual/up
 add the following line to your project's `manifest.json`:
 
 ```
-"com.gamecomponentattributes": "https://github.com/shelhelix/GameComponentAttributes.git?path=/Assets/Plugins/GameComponentAttributes"
+"com.ultrashel.gamecomponentattributes": "https://github.com/ultrashel/GameComponentAttributes.git?path=/Assets/Plugins/GameComponentAttributes"
 ```
 
 You will need to have Git installed and available in your system's PATH.
