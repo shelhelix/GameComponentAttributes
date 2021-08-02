@@ -7,19 +7,26 @@ GameComponentAttributes is a unity plugin for checking field values in your comp
 <details><summary>Instructions</summary>
 
 ### Installing with Unity Package Manager
-***Via Git URL in Package manager UI***
+There are several ways to install a new plugin in unity with the package manager 
+
+***Easiest: Via Git URL in Package manager UI***
 *(Requires Unity version 2018.3.0b7  or above)*
 
-git link for the unity package manager UI
-```
-https://github.com/ultrashel/GameComponentAttributes.git?path=/Assets/Plugins/GameComponentAttributes 
-```
-
-How to install packages via the package manager:
+How to install packages via the package manager UI:
 https://docs.unity3d.com/Manual/upm-ui-giturl.html
 
+If you want to install latest version of the plugin use this git link for the unity package manager UI
+```
+https://github.com/ultrashel/GameComponentAttributes.git?path=/Assets/Plugins/GameComponentAttributes
+```
 
-***Via Git URL manually***
+If you want to install specific (for example 1.0.1) version of the plugin use this git link for the unity package manager UI
+```
+https://github.com/ultrashel/GameComponentAttributes.git?path=/Assets/Plugins/GameComponentAttributes#1.0.1
+```
+
+
+***Via Git URL (manually editing json file)***
 *(Requires Unity version 2018.3.0b7  or above)*
 
 To install this project as a [Git dependency](https://docs.unity3d.com/Manual/upm-git.html) using the Unity Package Manager,
