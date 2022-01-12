@@ -17,12 +17,12 @@ https://docs.unity3d.com/Manual/upm-ui-giturl.html
 
 If you want to install latest version of the plugin use this git link for the unity package manager UI
 ```
-https://github.com/ultrashel/GameComponentAttributes.git?path=/Assets/Plugins/GameComponentAttributes
+https://github.com/shelhelix/GameComponentAttributes.git?path=/Assets/Plugins/GameComponentAttributes
 ```
 
 If you want to install specific (for example 1.0.1) version of the plugin use this git link for the unity package manager UI
 ```
-https://github.com/ultrashel/GameComponentAttributes.git?path=/Assets/Plugins/GameComponentAttributes#1.0.1
+https://github.com/shelhelix/GameComponentAttributes.git?path=/Assets/Plugins/GameComponentAttributes#1.0.1
 ```
 
 
@@ -33,7 +33,7 @@ To install this project as a [Git dependency](https://docs.unity3d.com/Manual/up
 add the following line to your project's `manifest.json`:
 
 ```
-"com.ultrashel.gamecomponentattributes": "https://github.com/ultrashel/GameComponentAttributes.git?path=/Assets/Plugins/GameComponentAttributes"
+"com.ultrashel.gamecomponentattributes": "https://github.com/shelhelix/GameComponentAttributes.git?path=/Assets/Plugins/GameComponentAttributes"
 ```
 
 You will need to have Git installed and available in your system's PATH.
