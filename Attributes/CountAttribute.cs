@@ -4,12 +4,12 @@ namespace GameComponentAttributes.Attributes {
 		public readonly int MaxCount   = -1;
 		public readonly int ExactCount = -1;
 
-		public CountAttribute(int minCount, int maxCount, bool checkPrefab = true) : base(checkPrefab) {
+		public CountAttribute(int minCount, int maxCount, bool checkInPrefab = true) : base(checkInPrefab) {
 			MinCount = minCount;
 			MaxCount = maxCount;
 		}
 
-		public CountAttribute(int exactCount, bool checkPrefab = true) : base(checkPrefab) {
+		public CountAttribute(int exactCount, bool checkInPrefab = true) : base(checkInPrefab) {
 			ExactCount = exactCount;
 		}
 	}
