@@ -9,7 +9,7 @@ using GameComponentAttributes.AttributesProcessor;
 using Object = UnityEngine.Object;
  
 namespace GameComponentAttributes {
-	public static class GameComponentUtils {
+	public static class AttributesValidator {
 		static readonly List<IAttributeProcessor> Processors = new() {
 			new NotNullReferenceAttributeProcessor(),
 			new NotEmptyCollectionAttributeProcessor(),
@@ -26,7 +26,8 @@ namespace GameComponentAttributes {
 			if ( context is MonoBehaviour mb ) {
 				isPrefab = string.IsNullOrEmpty(mb.gameObject.scene.name) || UnityEditor.SceneManagement.PrefabStageUtility.GetCurrentPrefabStage();
 			}
-			foreach ( var fieldInfo in rawObj.GetType().GetFields(BindingFlags.Public | BindingFlags.Instance) ) {
+			var fields = rawObj.GetType().GetFields(BindingFlags.NonPublic | BindingFlags.Public | BindingFlags.Instance);
+			foreach ( var fieldInfo in fields ) {
 				foreach ( var attributeRaw in fieldInfo.GetCustomAttributes(true) ) {
 					if ( isPrefab && (attributeRaw is BaseGameComponentAttribute bgca) && !bgca.CheckInPrefab ) {
 						continue;

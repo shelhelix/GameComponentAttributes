@@ -17,7 +17,7 @@ namespace MG.Utils.CommonValidator.Editor.ValidateTriggers {
 			foreach ( var root in roots ) {
 				var components = root.GetComponentsInChildren<MonoBehaviour>(true);
 				foreach ( var component in components ) {
-					GameComponentUtils.CheckAttributes(component);
+					AttributesValidator.CheckAttributes(component);
 				}
 			}
 		}

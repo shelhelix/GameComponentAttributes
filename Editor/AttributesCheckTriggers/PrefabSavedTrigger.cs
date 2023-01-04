@@ -16,7 +16,7 @@ namespace GameComponentAttributes.AttributesCheckTriggers {
             }
             var components = gameObject.GetComponentsInChildren<MonoBehaviour>(true);
             foreach ( var component in components ) {
-                GameComponentUtils.CheckAttributes(component);
+                AttributesValidator.CheckAttributes(component);
             }
         }
     }

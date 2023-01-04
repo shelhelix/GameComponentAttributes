@@ -10,7 +10,7 @@ namespace MG.Utils.CommonValidator.Editor.ValidateTriggers {
 			EditorGUI.BeginChangeCheck();
 			EditorGUI.PropertyField(position, property, label, true);
 			if ( EditorGUI.EndChangeCheck() ) {
-				GameComponentUtils.CheckAttributes(property.serializedObject);
+				AttributesValidator.CheckAttributes(property.serializedObject);
 			}
 		}
  
